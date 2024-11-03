@@ -2,54 +2,147 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>독일여행가이드</title>
     <style>
-        div{
-            /* display: inline-block; */
-            width: 150px;
-            height: 60px;
+        #berlin {
+            display: block;
+            width: 80%; 
+            /* max-width: 1200px; */
+            height: 500px;
             border: 1px solid #715;
             background-color: beige;
+            margin: 0 auto;
+            text-align: center;
         }
-        /* id는 #으로 class는 .으로 시작 */
-        #n3:hover{opacity: 0.7;
+
+        #cologne{
+            display: block;
+            width: 80%; 
+            /* max-width: 1200px; */
+            height: 500px;
+            border: 1px solid #715;
+            background-color: beige;
+            margin: 0 auto;
+            text-align: center;
         }
-        .sub{
-            background-color: antiquewhite;
-            position: relative;
-            top: 10px;
-            left: 30px;
+        #munich{
+            display: block;
+            width: 80%; 
+            /* max-width: 1200px; */
+            height: 500px;
+            border: 1px solid #715;
+            background-color: beige;
+            margin: 0 auto;
+            text-align: center;
         }
-        #fix{
-            position: fixed;
-            /* position: absolute; */
-            bottom: 50px;
-            right: 100px;
+        #frankfurt{    
+            display: block;
+            width: 80%; 
+            /* max-width: 1200px; */
+            height: 500px;
+            border: 1px solid #715;
+            background-color: beige;
+            margin: 0 auto;
+            text-align: center;
         }
-        #float{
-            position: fixed;
-            left: 300px;
-            width: 300px;
-            height: 400px;
+        h2{
+            font-size: 5em;
         }
+
+
+           
     </style>
 </head>
 <body>
-    <div>DIV1</div>
-    <div class="sub">DIV2</div>
-    <div id="n3">DIV3</div>
-    <div class="sub">DIV4</div>
-    <div>DIV5</div>
-    <div id="fix">DIV6</div>
-    <div id="float">DIV7
-        <img src="이미지/자기소개용.jpg" width="200px" style="float:left">
-            헤이트풀 8은 쿠엔틴 타란티노 감독의 8번째 영화이다. 그래서 제목에도 8이라는 숫자가 들어갔다. 
-            원래 "증오의 8인"이라는 제목으로 소개가 되었으나, 원어 발음인 헤이트풀 8으로 개봉되었다. 
-            《펄프 픽션》, 《재키 브라운》, 《장고: 분노의 추적자》, 《킬 빌》 등 쿠엔틴 타란티노 감독의 영화에
-            단골 조연, 카메오, 그리고 나레이션으로 출연하던 절친 새뮤얼 L. 잭슨이 주연으로 등장하는 영화이다.
-            또한 전설적인 영화음악가인 엔니오 모리코네가 오리지널 스코어 작곡을 담당했는데, 
-            이로서 모리코네는 수십 년 만에 서부극을 위한 곡을 작곡하게 되었다
-    </div>
+
+    <header>
+        <h1 style="
+    text-align: center; 
+    background: linear-gradient(90deg, black 33%, red 33%, red 66%, yellow 66%);
+    color: rgb(255, 252, 252); 
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    ">
+    독일 대도시 여행 가이드</h1>
+    </header>
+    
+    <div style="text-align: end;">202100720 이상민</div>
+
+    <nav>
+        <ul>
+            <li><a href="#berlin">베를린</a></li>
+            <li><a href="#cologne">쾰른</a></li>
+            <li><a href="#munich">뮌헨</a></li>
+            <li><a href="#frankfurt">프랑크푸르트</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="berlin">
+            <h2>베를린</h2>
+            <article>
+                <h3>브란덴부르크 문</h3>
+                <p>독일 통일의 상징인 랜드마크입니다.</p>
+            </article>
+            <article>
+                <h3>이스트사이드 갤러리</h3>
+                <p>베를린 장벽의 일부를 갤러리로 개조한 곳으로, 1.3km에 걸쳐 길게 펼쳐져 있습니다.</p>
+            </article>
+            <p><strong>근교 추천:</strong> 포츠담 상수시 궁전</p>
+        </section>
+    
+        <section id="cologne">
+            <h2>쾰른</h2>
+            <article>
+                <h3>쾰른 대성당</h3>
+                <p>유네스코 세계문화유산으로 지정된 이 성당은 라인강을 내려다보는 전망대도 있습니다.</p>
+            </article>
+            <article>
+                <h3>초콜릿 박물관</h3>
+                <p>초콜릿의 역사와 제작 과정을 체험할 수 있는 인기 관광지입니다.</p>
+            </article>
+            <p><strong>근교 추천:</strong> 본 하리보 공장</p>
+        </section>
+    
+        <section id="munich">
+            <h2>뮌헨</h2>
+            <article>
+                <h3>마리엔 광장</h3>
+                <p>매일 정오에 시계탑에서 인형극이 펼쳐지는 인기 관광 명소입니다.</p>
+            </article>
+            <article>
+                <h3>알테 피나코테크</h3>
+                <p> 다양한 고전 미술 작품들을 감상할 수 있습니다.</p>
+            </article>
+            <p><strong>근교 추천:</strong> 퓌센 노이슈반슈타인 성</p>
+        </section>
+    
+        <section id="frankfurt">
+            <h2>프랑크푸르트</h2>
+            <article>
+                <h3>뢰머광장</h3>
+                <p>매년 크리스마스 마켓이 열리는 아름다운 광장입니다.</p>
+            </article>
+            <article>
+                <h3>슈타델 미술관</h3>
+                <p>고흐와 모네의 작품들을 감상할 수 있는 미술관입니다.</p>
+            </article>
+            <p><strong>근교 추천:</strong> 하이델베르크 성</p>
+        </section>
+    </main>
+    <br><br>
+    <footer>
+        <h1>추가 정보: 교통</h1>
+        <article>
+            <h3>기차 이용 팁</h3>
+            <p>독일 기차는 자주 연착되므로 중요한 일정에는 여유를 두는 것을 추천합니다.</p>
+        </article>
+        <article>
+            <h3>독일 지하철, S반과 U반</h3>
+            <p>S반은 교외와 도심을 연결하고, U반은 도심 내를 순환하는 지하철입니다. 하루권이나 일주일권을 구입하면 교통비를 절약할 수 있습니다.</p>
+        </article>
+    </footer>
+    
+
 </body>
 </html>
